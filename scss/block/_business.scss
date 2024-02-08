@@ -1,0 +1,44 @@
+.business {
+    padding: 50px 100px;
+
+    .business__container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .business__block {
+        background-color: #20b2aa;
+        padding: 125px 90px 125px 50px;
+
+
+    }
+
+    .business__title {
+        color: #fff;
+        width: 400px;
+        font-size: 46px;
+        margin-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .business__active {
+        color: darkcyan;
+    }
+
+    .business__btn {
+        background-color: #fff;
+        color: #20b2aa;
+        padding: 20px 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .business__container {
+        flex-direction: column;
+    }
+
+    .business__img {
+        width: 550px;
+    }
+}

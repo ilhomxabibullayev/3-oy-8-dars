@@ -1,0 +1,39 @@
+.chackout {
+    padding: 100px 100px;
+
+    .chackout__content {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .chackout__title {
+        color: #20b2aa;
+        width: 450px;
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .chackout__text {
+        width: 450px;
+        color: #0000009d;
+        margin-bottom: 50px;
+    }
+
+    .chackout__btn {
+        background-color: #20b2aa;
+        color: #fff;
+        padding: 20px 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .chackout__content {
+        flex-direction: column;
+        text-align: center;
+
+        .chackout__img {
+            width: 500px;
+        }
+    }
+}
