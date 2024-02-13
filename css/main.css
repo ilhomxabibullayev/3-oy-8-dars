@@ -72,16 +72,10 @@ body {
   gap: 30px;
 }
 .header .header__link {
-  color: rgba(0, 0, 0, 0.568627451);
-}
-.header .header__link:hover {
   color: #000;
 }
-.header .header__activ {
-  color: rgba(0, 255, 255, 0.693);
-}
-.header .header__activ:hover {
-  color: aqua;
+.header .header__link:hover {
+  color: #20b2aa;
 }
 
 @media screen and (max-width: 600px) {
@@ -143,7 +137,7 @@ body {
 }
 
 .hero__active2 {
-  color: rgba(0, 255, 255, 0.6);
+  color: #20b2aa;
 }
 
 @media screen and (max-width: 600px) {

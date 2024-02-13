@@ -29,20 +29,12 @@
         align-items: center;
         gap: 30px;
     }
-    
+
     .header__link {
-        color: #00000091;
+        color: #000;
 
         &:hover {
-            color: #000;
-        }
-    }
-
-    .header__activ {
-        color: rgba(0, 255, 255, 0.693);
-
-        &:hover {
-            color: aqua;
+            color: #20b2aa;
         }
     }
 }
